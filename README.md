@@ -1,16 +1,29 @@
-# exam_scheduler
+# Распоред на Испити (Exam Scheduler)
 
-A new Flutter project.
+Ова е едноставна Flutter апликација која прикажува список на испити, организирани хронолошки.  
+Секој испит е претставен преку **картичка (Card widget)** со предмет, датум, време и место на одржување.  
+Со клик на картичка се прикажуваат сите детали за испитот и преостанатото време до неговото одржување.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### Функционалности
+- Приказ на сите испити подредени по датум  
+- Различни бои за **поминати** и **претстојни** испити  
+- Детален преглед на секој испит со пресметка на преостанати денови и часови  
+- Значка (badge) со вкупен број на испити  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Скриншотови
+Сите слики од апликацијата се наоѓаат во папката [`/screenshots`](./screenshots).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Почетен екран | Детален преглед |
+|----------------|------------------|
+| ![Home Screen](./screenshots/home_screen.png) | ![Details Screen](./screenshots/details_screen.png) |
+
+---
+
+### Како да ја стартувате апликацијата
+```bash
+flutter pub get
+flutter run
