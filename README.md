@@ -14,12 +14,12 @@
 
 ---
 
-### Скриншотови
+### Screenshots
 Сите слики од апликацијата се наоѓаат во папката [`/screenshots`](./screenshots).
 
 | Почетен екран | Детален преглед |
 |----------------|------------------|
-| ![Home Screen](./screenshots/home_screen.png) | ![Details Screen](./screenshots/details_screen.png) |
+| ![Home Screen](./screenshots/MIS_screenshot1.png) | ![Details Screen](./screenshots/MIS_screenshot2.png) |
 
 ---
 
